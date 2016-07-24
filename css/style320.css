@@ -95,6 +95,9 @@ header {
 	font-size: 18px;
 	letter-spacing: -0.2px;
 }
+.point {
+	padding-left: 123px;
+}
 .text_hidden320,
 .slider_text,
 .iphone_hidden,
@@ -117,6 +120,12 @@ header {
 }
 .about_container:nth-child(2) {
 	margin-bottom: 37px;
+}
+.about_container_content {
+	position: relative;
+	display: inline-block;
+	padding-left: 66px;
+
 }
 .about_container_img {
 	float: left;
@@ -188,6 +197,10 @@ header {
 .testimonials_conteny_text {
 	padding-left: 2px;
 }
+.testimonials_nav {
+	padding-left: 126px;
+	text-align: left;
+}
 .blog{
 	margin-left: 2px;
 }
@@ -208,7 +221,13 @@ header {
 	margin-top: 13px;
 	margin-right: 8px;
 }
+.blogs_content_header {
 
+	letter-spacing: 0.1px;
+}
+.blogs_content_text {
+	letter-spacing: -0.17px;
+}
 
 
 
