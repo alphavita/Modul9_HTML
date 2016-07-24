@@ -4,7 +4,7 @@ a {
 }
 header {
 	background-color: grey;
-	background-image: url(../img/header_bg.png) ;
+	/*background-image: url(../img/header_bg.png) ;*/
 	background-position: top center;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
@@ -70,7 +70,12 @@ header {
 .testimonials_nav,
 .point {
 	height: 17px;
-	text-align: center;
+	/*text-align: center;*/
+}
+.testimonials_nav {
+	text-align: left;
+	padding-left: 126px;
+
 }
 .testimonials_nav a {
 	display: inline-block;
@@ -83,6 +88,9 @@ header {
 
 	margin-right: 2px;
 }
+.point {
+	padding-left: 123px;
+}
 .point a {
 	display: inline-block;
 	width: 15px;
@@ -91,7 +99,7 @@ header {
 	background-color: #686370;
 
 
-	margin-right: 2px;
+	margin-right: 4px;
 }
 .testimonials_nav .curent  {
     background-color: #acacac;
@@ -179,7 +187,7 @@ background-image: linear-gradient(to bottom, #755284 0%, #43324B 100%);
 .about_container_content {
 	position: relative;
 	display: inline-block;
-	padding-left: 65px;
+	padding-left: 66px;
 
 }
 .about_container_content_header{
@@ -224,7 +232,8 @@ background-image: linear-gradient(to bottom, #755284 0%, #43324B 100%);
 }
 
 .feedback {
-	background-color: #f9f9f9;
+	/*background-color: #f9f9f9;*/
+	background-color: #808000;
 }
 .logo_feedback {
 	border-top: 1px solid #fefefe;
@@ -270,12 +279,13 @@ line-height: 24px;
 .blogs_content_img,
 .blog_container {
 	display: inline-block;
+	vertical-align: top;
 }
 .blogs_content_img {
 	border-radius: 50%;
 }
 .blog_container {
-	text-shadow: 0.5px 0.9px 0 white;
+
 color: #454545;
 font-family: 'Open Sans';
 font-size: 16px;
@@ -283,16 +293,19 @@ line-height: 24px;
 }
 .blogs_content_header {
 	font-weight: 700;
+	letter-spacing: 0.1px;
 }
 .blogs_content_text {
 	font-weight: 300;
+	letter-spacing: -0.17px;
+	line-height: 20px;
 }
 .blogs_footer a {
 	color: #454545;
 }
 .blogs_footer {
 
-text-shadow: 0.5px 0.9px 0 white;
+
 color: #454545;
 font-family: LeagueGothic;
 font-size: 18px;
@@ -334,7 +347,7 @@ footer {
 }
 .footer_end {
 
-text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
+
 color: white;
 font-family: 'Open Sans';
 font-size: 12px;

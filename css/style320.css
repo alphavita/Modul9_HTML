@@ -81,10 +81,10 @@ header {
 	border-bottom: 0;
 }
 .slider {
-	margin-top: 183px;
+	margin-top: 182px;
 }
 .slider_wraper h2 {
-	padding-left: 65px;
+	padding-left: 64px;
 	margin-bottom: 80px;
 }
 .slider_title_end {
@@ -106,14 +106,14 @@ header {
 .row_about {
 	padding-left: 15px;
 	padding-right: 15px;
-	padding-top: 68px;
+	padding-top: 69px;
 	padding-bottom: 39px;
 
 }
 
 .about_container {
 	width: 100%;
-	margin-bottom: 21px;
+	margin-bottom: 20px;
 }
 .about_container:nth-child(2) {
 	margin-bottom: 37px;
@@ -127,10 +127,18 @@ header {
 	height: 25px;
 	position: absolute;
 	left: 0px;
+	margin-top: 5px;
+	margin-left: 18px;
+}
+.about_container_content_text {
+	margin-top: 1px;
+}
+.about_container_content_footer {
+	padding-right: 1px;
 }
 .test_blog {
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 17px;
+	padding-right: 18px;
 	padding-top: 67px;
 	padding-bottom: 88px;
 }
@@ -145,15 +153,17 @@ header {
 }
 .testimonials_main {
 	background-color: #fff;
-	padding-top: 25px;
-	padding-left: 35px;
-	padding-bottom: 32px;
-	padding-right: 39px;
-	margin-bottom: 22px;
+	padding-top: 27px;
+	padding-left: 37px;
+	padding-bottom: 28px;
+	padding-right: 44px;
+	margin-bottom: 25px;
 	margin-left: 24px;
 	position: relative;
 }
 .testimonials_img {
+	margin-top: 5px;
+	margin-left: 2px;
 	position: absolute;
 	left:-24px;
 	top:17px;
@@ -165,6 +175,7 @@ header {
 	font-weight: 400;
 	line-height: 24px;
 	text-transform: uppercase;
+	margin-bottom: 5px;
 }
 .testimonials_header_start {
 	color: #454545;
@@ -174,15 +185,29 @@ header {
 	color: #edbfff;
 
 }
+.testimonials_conteny_text {
+	padding-left: 2px;
+}
+.blog{
+	margin-left: 2px;
+}
+.blogs_header {
+	margin-bottom: 20px;
+}
 .blogs_first{
-	margin-bottom: 16px;
+	margin-bottom: 14px;
 }
 .blogs_second {
-	margin-bottom: 25px;
+	margin-bottom: 21px;
 }
-
-
-
+.blog_container {
+	/*margin-top: 17px;*/
+	margin-left: 14px;
+}
+.blogs_footer {
+	margin-top: 13px;
+	margin-right: 8px;
+}
 
 
 
@@ -194,7 +219,7 @@ header {
 
 .logo_feedback {
 	padding-top: 50px;
-	padding-bottom: 88px;
+	padding-bottom: 78px;
 	padding-left: 15px;
 	padding-right: 15px;
 
@@ -203,28 +228,30 @@ header {
 
 .logo_img_1,
 .logo_img_2 {
-	margin-bottom: 60px;
+	margin-bottom: 59px;
 }
 .logo_img_3,
 .logo_img_4 {
 	margin-bottom: 42px;
 }
 .logo_img_1 {
-	margin-left: 22px;
+	margin-left: 47px;
 	margin-right: 55px;
 }
 .logo_img_3 {
-	margin-left: 30px;
-margin-right: 57px;
+	margin-left: 55px;
+margin-right: 65px;
 }
 .logo_img_5 {
-	margin-right: 48px;
+	margin-left: 27px;
+	margin-right: 51px;
 }
 
 footer {
-	padding-top: 43px;
-	padding-bottom: 149px;
+	padding-top: 31px;
+	padding-bottom: 140px;
 	text-align: center;
+	letter-spacing: -0.1px;
 }
 .nav_line {
 	display: none;
