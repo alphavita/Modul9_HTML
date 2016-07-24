@@ -1,0 +1,82 @@
+.logo_img_6, .right_arrow_slider, .testimonials_img, .logo_img_1, .logo_img_2, .logo_img_3, .logo_img_4, .logo_img_5, .blogs_content_img, .about_iicon_sp, .about_icon_note, .about_container_img, .left_arrow_slider{
+	background: url(../img/sprites.png) no-repeat;
+}
+
+.logo_img_6{
+	background-position: -444px -8px ;
+	width: 81px;
+	height: 61px;
+}
+
+.right_arrow_slider{
+	background-position: -69px -103px ;
+	width: 30px;
+	height: 42px;
+}
+
+.testimonials_img{
+	background-position: -547px -13px ;
+	width: 49px;
+	height: 51px;
+}
+
+.logo_img_1{
+	background-position: -363px -7px ;
+	width: 69px;
+	height: 64px;
+}
+
+.logo_img_2{
+	background-position: -278px -8px ;
+	width: 72px;
+	height: 64px;
+}
+
+.logo_img_3{
+	background-position: -197px -6px ;
+	width: 65px;
+	height: 65px;
+}
+
+.logo_img_4{
+	background-position: -134px -6px ;
+	width: 51px;
+	height: 65px;
+}
+
+.logo_img_5{
+	background-position: -11px -1px ;
+	width: 104px;
+	height: 61px;
+}
+
+.blogs_content_img{
+	background-position: -554px -82px ;
+	width: 50px;
+	height: 50px;
+}
+
+.about_iicon_sp{
+	background-position: -454px -101px ;
+	width: 27px;
+	height: 23px;
+}
+
+.about_icon_note{
+	background-position: -397px -168px ;
+	width: 23px;
+	height: 25px;
+}
+
+.about_container_img{
+	background-position: -381px -324px ;
+	width: 24px;
+	height: 25px;
+}
+
+.left_arrow_slider{
+	background-position: -20px -103px ;
+	width: 30px;
+	height: 42px;
+}
+
