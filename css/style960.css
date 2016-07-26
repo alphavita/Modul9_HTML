@@ -1,37 +1,49 @@
 @media screen  and (min-width: 960px) {
 .container-fluid {
-	min-width: 960px;
-	max-width: 100%;
+	max-width: 960px;
+	/*max-width: 100%;*/
 	margin: 0 auto;
 }/*HEADER*/
 header {
-	padding-top: 70px;
-	padding-bottom: 55px;
+	padding-top: 67px;
+	padding-bottom: 58px;
 }
 .logo {
 	float: left;
+	letter-spacing: -0.6px;
 }
 .nav_right {
 	float: right;
 
 
 }
-.nav li {
+header .nav {
+	margin-top: 6px;
+}
+header .nav a {
+	letter-spacing: -0.2px;
+}
+header .nav li {
 	display: inline-block;
 	*display:inline; /* ie7 */
+	margin-left: 40px;
+
+}
+.nav_last a{
+	padding-right: 0;
 }
 
 header .nav_line li {
-	margin-left: 38px;
+	margin-right: 38px;
 }
 
 
 .slider_wraper {
 	background-color: rgba(0,0,0,0.2);
 	z-index:10;
-	margin-top: 170px;
+	margin-top: 164px;
 	height: 400px;
-	padding-top: 83px;
+	padding-top: 90px;
 	margin-bottom: 93px;
 	padding-bottom: 82px;
 	position: relative;
@@ -49,6 +61,7 @@ header .nav_line li {
 	font-size: 60px;
 	font-weight: 400;
 	line-height: 36px;
+	letter-spacing: -1.0px;
 
 }
 .slider_title_end {
@@ -56,16 +69,18 @@ header .nav_line li {
 	font-family: LeagueGothic;
 	font-size: 32px;
 	font-weight: 400;
-	line-height: 36px;
+	line-height: 42px;
+	letter-spacing: -0.4px
 }
 .slider_text {
-
+	margin-top: 1px;
 	color: white;
 	font-family: 'Open Sans';
 	font-size: 18px;
 	font-weight: 300;
-	line-height: 30px;
+	line-height: 24px;
 	width: 503px;
+	letter-spacing: -0.05px;
 }
 .iphone_wraper {
 	position: relative;
@@ -74,16 +89,19 @@ header .nav_line li {
 	position: absolute;
 	width: 267px;
 	height: 415px;
-	top:-350px;
-	right: 50px;
+	top:-335px;
+	right: 75px;
 	background-image: url('../img/slider_iphone.png');
 
 }
 .slider_play img{
-	margin-top: 144px;
-	padding-left: 128px;
+	margin-top: 150px;
+	padding-left: 135px;
 }
-
+.point {
+	text-align: right;
+	margin-right: 160px;
+}
 
 .row_about {
 
@@ -92,8 +110,38 @@ header .nav_line li {
 }
 
 .about_container {
-	width: 33.3%;
+	width: 288px;
 	float: left;
+}
+.about_container-first {
+	margin-right: 51px;
+}
+.about_container-second {
+	margin-right: 43px;
+}
+.about_container_content_header {
+	font-size: 28px;
+	letter-spacing: 0.3px;
+	margin-left: 66px;
+	margin-bottom: 9px;
+}
+.about_container_content_text {
+	margin-left: 64px;
+	letter-spacing: -0.1px;
+	padding-right: 0;
+}
+
+.about_container_content_footer {
+	margin-top: 17px;
+}
+.about_container-firs {
+	margin-right: 51px;
+}
+.about_container_content_footer-second {
+	margin-right: -6px;
+}
+.about_container-tree .about_container_content_footer {
+	margin-right: -11px;
 }
 .header-first {
 
@@ -104,18 +152,26 @@ header .nav_line li {
 	height: 25px;
 	position: absolute;
 	left: 0px;
+	margin-top: 5px;
+	margin-left: 12px;
 }
-.header-second {
-
+.header-tree {
 	background: url(../img/sprites.png) no-repeat;
-
 	background-position: -397px -168px ;
 	width: 23px;
 	height: 25px;
 	position: absolute;
 	left: 0px;
+	margin-top: 5px;
+	margin-left: 20px;
 }
-.header-tree {
+.about_container_content_text-tree {
+	padding-left: 3px;
+}
+.about_container_content_header-tree {
+	padding-left: 4px;
+}
+.header-second {
 
 	background: url(../img/sprites.png) no-repeat;
 
@@ -124,6 +180,8 @@ header .nav_line li {
 	height: 23px;
 	position: absolute;
 	left: 0px;
+	margin-top: 8px;
+	margin-left: 12px;
 }
 
 .logo_feedback {
@@ -171,10 +229,18 @@ header .nav_line li {
 	position: relative;
 
 }
+.testimonials_main::before {
+    content: '';
+    position: absolute;
+    right: 48px;
+    top: 273px;
+    border-bottom: 18px solid transparent;
+    border-right: 18px solid #fff;
+   }
 .testimonials_img {
 	position: absolute;
-	left:-24px;
-	top:17px;
+	left:-28px;
+	top:18px;
 }
 .testimonials_header {
 	text-shadow: 0.5px 0.9px 0 white;
@@ -183,6 +249,8 @@ header .nav_line li {
 	font-weight: 400;
 	line-height: 24px;
 	text-transform: uppercase;
+	letter-spacing: -0.2px;
+	margin-bottom: 11px;
 }
 
 .testimonials_header_start {
@@ -195,27 +263,120 @@ header .nav_line li {
 	display: inline-block;
 
 }
-.blog {
-	padding-right: 15px;
+.testimonials_nav {
+	text-align: center;
 }
+.blog {
+	margin-top: 33px;
+	/*padding-right: 15px;*/
+	padding-left: 31px;
+}
+.blogs_header {
+	letter-spacing: -0.2px;
+	margin-bottom: 18px;
+	/*margin-left: 11px;*/
+}
+.blogs_content_text {
+	padding-left: 11px;
+	letter-spacing: -0.1px;
+}
+.blogs_content_header p {
+	display: inline-block;
+	letter-spacing: 0.25px;
+	margin-left: 11px;
+}
+.blogs_first {
+	margin-bottom: 18px;
+}
+.blogs_second {
+ margin-bottom: 12px;
+  }
+  .blogs_footer {
+  	margin-top: 20px;
+  	margin-right: 20px;
+  	letter-spacing: -0.1px;
+  }
 .row_news {
 
-	padding-top: 90px;
-	padding-bottom: 100px;
+	padding-top: 95px;
+	padding-bottom: 95px;
+}
+.logo_feedback {
+	padding-left: 94px;
+	padding-bottom: 30px;
+}
+.logo_img_1 {
+	margin-right: 65px;
+}
+.logo_img_2 {
+	margin-right: 63px;
+}
+.logo_img_3 {
+	margin-right: 73px;
+}
+.logo_img_4 {
+	margin-right: 69px;
+}
+.logo_img_5 {
+	margin-top: 2px;
+	margin-right: 63px;
+}
+.logo_img_6 {
+	margin-top: 2px;
 }
 .news_content {
 	width: 29%;
 	float: left;
+}
+.logo_news_hidden {
+	letter-spacing: -0.6px;
+}
+.logo_news_hidden  .logo_star {
+	color: #222;
+}
+.logo_news_hidden .logo_end {
+
 }
 .text_hidden960,
 .news_content_last {
 	display: none;
 }
 .news_content-960 {
+	display: block;
+	width: 283px;
+	margin-right: 55px;
+}
+.logo_news_hidden h1 {
+	letter-spacing: -0.9px;
+	margin-bottom: 9px;
+}
+
+.logo_news_hidden .logo_start {
+	color:#454545;
+}
+.logo_news_hidden .logo_end {
+	color: #bababa;
+}
+.news_content_header-p {
+color: #c5c5c5;
+font-family: Georgia;
+font-size: 16px;
+font-style: italic;
+line-height: 24px;
+letter-spacing: -0.17px;
+margin-bottom: 7px;
+}
+.news_content_header {
+	margin-top: 5px;
+	letter-spacing: -0.3px;
+	margin-bottom: 10px;
+}
+.news_content .news_content-960 {
 	margin-right: 57px;
+	margin-top: -5px;
 }
 .news_content-first {
-	margin-right: 57px;
+	margin-right: 61px;
 }
 .news_content_header {
 
@@ -231,18 +392,28 @@ text-transform: uppercase;
 
 /*FOOTER*/
 footer {
-	padding-top: 46px;
+	padding-top: 42px;
 	padding-bottom: 49px;
 
 }
 footer .nav {
-	float: left;;
-	margin-bottom: 37px;
+	float: left;
+	margin-left: -6px;
+	/*margin-bottom: 37px;*/
 }
 .nav li {
 	float: left;
 }
+footer .nav_line a {
+	font-size: 19px;
+	letter-spacing: 0.1px;
+}
+footer .nav_line li {
+	margin-right: 32px;
+	margin-top: 5px;
+}
 .footer_p {
 	float: right;
+	line-height: 18px;
 }
 }

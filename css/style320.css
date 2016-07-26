@@ -40,6 +40,9 @@ header {
 	background-color: #2d2433;
 	border-bottom: 1px solid #edbfff;
 }
+.nav_menu_drop:hover a {
+	border-bottom: none;
+}
 .nav_menu a{
 	text-decoration: none;
 	text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
@@ -127,6 +130,7 @@ header {
 	padding-left: 66px;
 
 }
+
 .about_container_img {
 	float: left;
 	background: url(../img/sprites.png) no-repeat;
@@ -141,6 +145,7 @@ header {
 }
 .about_container_content_text {
 	margin-top: 1px;
+	padding-bottom: 14px;
 }
 .about_container_content_footer {
 	padding-right: 1px;

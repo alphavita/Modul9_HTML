@@ -1,4 +1,15 @@
-.logo_img_6, .right_arrow_slider, .testimonials_img, .logo_img_1, .logo_img_2, .logo_img_3, .logo_img_4, .logo_img_5, .blogs_content_img, .about_iicon_sp, .about_icon_note, .about_container_img, .left_arrow_slider{
+.logo_img_6,
+.right_arrow_slider,
+.testimonials_img,
+.logo_img_1,
+.logo_img_2,
+.logo_img_3,
+.logo_img_4,
+.logo_img_5,
+.blogs_content_img,
+.about_iicon_sp,
+.about_icon_note,
+.left_arrow_slider{
 	background: url(../img/sprites.png) no-repeat;
 }
 
@@ -68,11 +79,7 @@
 	height: 25px;
 }
 
-.about_container_img{
-	background-position: -381px -324px ;
-	width: 24px;
-	height: 25px;
-}
+
 
 .left_arrow_slider{
 	background-position: -20px -103px ;
