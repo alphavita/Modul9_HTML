@@ -191,8 +191,17 @@ letter-spacing: -0.4px;
 	padding-right: 67px;
 
 }
-
-.logo_img_1{
+.logo_wraper {
+	width: 33%;
+	float: left;
+	margin-bottom: 26px;
+}
+.logo_brend {
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+}
+/*.logo_img_1{
 	margin-left: 18px;
 	margin-right: 52px;
 	margin-bottom: 26px;
@@ -201,12 +210,15 @@ letter-spacing: -0.4px;
 margin-right: 54px;
 margin-bottom: 26px;
 }
+.logo_img_3 {
+	margin-bottom: 26px;
+}
 .logo_img_4  {
 	margin-right: 58px;
 }
 .logo_img_5 {
 	margin-right: 52px;
-}
+}*/
 
 .test_blog {
 	padding-left: 20px;

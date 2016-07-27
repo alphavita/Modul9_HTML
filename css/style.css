@@ -238,7 +238,8 @@ background-image: linear-gradient(to bottom, #755284 0%, #43324B 100%);
 
 }
 .logo_brend {
-	float: left;
+	/*float: left;*/
+	display: inline-block;
 	vertical-align: middle;
 	text-align: center;
 }

@@ -230,8 +230,11 @@ header .nav li {
 	padding-top: 25px;
 	padding-bottom: 29px;
 }
-
-.logo_img_2 {
+.logo_wraper {
+	width: 16.6%;
+	float: left;
+}
+/*.logo_img_2 {
 	margin-left: 55px;
 }
 .logo_img_3 {
@@ -244,8 +247,10 @@ header .nav li {
 	margin-left: 60px;
 	margin-right: 50px;
 }
-
-
+*/
+.logo_brend {
+	margin-left: 0 auto;
+}
 .row_news {
 
 	padding-top: 101px;

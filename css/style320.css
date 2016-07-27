@@ -248,9 +248,18 @@ header {
 	padding-right: 15px;
 
 }
+.logo_wraper {
+	width: 50%;
+	float: left;
+	margin-bottom: 26px;
+}
+.logo_brend {
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+}
 
-
-.logo_img_1,
+/*.logo_img_1,
 .logo_img_2 {
 	margin-bottom: 59px;
 }
@@ -269,7 +278,7 @@ margin-right: 65px;
 .logo_img_5 {
 	margin-left: 27px;
 	margin-right: 51px;
-}
+}*/
 
 footer {
 	padding-top: 31px;
