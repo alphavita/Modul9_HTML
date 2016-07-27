@@ -91,7 +91,7 @@ header .nav_line li {
 	height: 415px;
 	top:-335px;
 	right: 75px;
-	background-image: url('../img/slider_iphone.png');
+	background-image: url("../img/slider_iphone.png");
 
 }
 .slider_play img{

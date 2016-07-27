@@ -250,6 +250,8 @@ header .nav li {
 */
 .logo_brend {
 	margin-left: 0 auto;
+	text-align: center;
+	display: block;
 }
 .row_news {
 
