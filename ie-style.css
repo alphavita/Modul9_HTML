@@ -1,0 +1,455 @@
+
+ .container-fluid {
+	max-width: 960px;
+
+	margin: 0 auto;
+	position: relative;
+}
+header {
+	padding-top: 67px;
+	padding-bottom: 58px;
+}
+.logo_start {
+	 font-family: 'League Gothic Regular';
+	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+	color: white;
+	font-size: 48px;
+	font-weight: 400;
+	/*line-height: 34px;*/
+	text-decoration: none;
+
+	}
+.logo_end {
+	 font-family: 'League Gothic Regular';
+	color: #553c61;
+	font-size: 48px;
+	font-weight: 400;
+	/*line-height: 38px;
+	height: 38px;*/
+	display: inline-block;
+}
+.nav a {
+	 font-family: 'League Gothic Regular';
+}
+	header {
+	padding-top: 67px;
+	padding-bottom: 58px;
+}
+.logo {
+	float: left;
+	letter-spacing: -0.6px;
+}
+.nav_right {
+	float: right;
+
+
+}
+header .nav {
+	margin-top: 6px;
+}
+header .nav a {
+	letter-spacing: -0.2px;
+}
+header .nav li {
+	display: inline-block;
+	*display:inline; /* ie7 */
+	margin-left: 40px;
+
+}
+.nav_last a{
+	padding-right: 0;
+}
+
+header .nav_line li {
+	margin-right: 38px;
+}
+
+
+.slider_wraper {
+	background-color: #000;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+
+	/*background-color: rgba(0,0,0,0.2);*/
+	/*z-index:;*/
+	margin-top: 164px;
+	height: 400px;
+	padding-top: 90px;
+	margin-bottom: 93px;
+	padding-bottom: 82px;
+	position: relative;
+}
+
+
+.slider_title {
+	/*padding-left: 40px;*/
+}
+
+
+.slider_title_start {
+	color: #fefefe;
+	 font-family: 'League Gothic Regular';
+	font-size: 60px;
+	font-weight: 400;
+	line-height: 36px;
+	letter-spacing: -1.0px;
+
+}
+.slider_title_end {
+	color: #edbfff;
+	 font-family: 'League Gothic Regular';
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 42px;
+	letter-spacing: -0.4px
+}
+.slider_text {
+	margin-top: 1px;
+	color: white;
+	 font-family: 'Open Sans Regular';
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 24px;
+	width: 503px;
+	letter-spacing: -0.05px;
+}
+.iphone_wraper {
+	position: relative;
+}
+.iphone {
+	position: absolute;
+	width: 267px;
+	height: 415px;
+	top:-335px;
+	right: 75px;
+/*	background-image: url(img/testimonials_img.png);*/
+	background-image: url(img/slider_iphone.png);
+
+}
+.slider_play img{
+	margin-top: 150px;
+	padding-left: 135px;
+}
+.point {
+	text-align: right;
+	margin-right: 160px;
+}
+
+.row_about {
+
+	padding-top: 79px;
+	padding-bottom: 65px;
+}
+
+.about_container {
+	width: 288px;
+	float: left;
+}
+.about_container-first {
+	margin-right: 51px;
+}
+.about_container-second {
+	margin-right: 43px;
+}
+.about_container_content_header {
+	font-size: 28px;
+	letter-spacing: 0.3px;
+	margin-left: 66px;
+	margin-bottom: 9px;
+	 font-family: 'League Gothic Regular';
+
+}
+.about_container_content_text {
+	margin-left: 64px;
+	letter-spacing: -0.1px;
+	padding-right: 0;
+	font-family: 'Open Sans Light';
+}
+
+.about_container_content_footer {
+	margin-top: 17px;
+	 font-family: 'League Gothic Regular';
+}
+.about_container-firs {
+	margin-right: 51px;
+}
+.about_container_content_footer-second {
+	margin-right: -6px;
+}
+.about_container-tree .about_container_content_footer {
+	margin-right: -11px;
+}
+.header-first {
+
+	background: url(../img/sprites.png) no-repeat;
+
+	background-position: -381px -324px ;
+	width: 24px;
+	height: 25px;
+	position: absolute;
+	left: 0px;
+	margin-top: 5px;
+	margin-left: 12px;
+}
+.header-tree {
+	background: url(../img/sprites.png) no-repeat;
+	background-position: -397px -168px ;
+	width: 23px;
+	height: 25px;
+	position: absolute;
+	left: 0px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.about_container_content_text-tree {
+	padding-left: 3px;
+}
+.about_container_content_header-tree {
+	padding-left: 4px;
+}
+.header-second {
+
+	background: url(../img/sprites.png) no-repeat;
+
+	background-position: -454px -101px ;
+	width: 27px;
+	height: 23px;
+	position: absolute;
+	left: 0px;
+	margin-top: 8px;
+	margin-left: 12px;
+}
+
+.logo_feedback {
+	padding-top: 22px;
+	padding-bottom: 27px;
+	/*padding-left: 92px;*/
+
+
+}
+.logo_wraper {
+	width: 160px;
+	float: left;
+}
+/*.logo_img_1 {
+	margin-right: 60px;
+}
+.logo_img_2 {
+	margin-right: 60px;
+}
+.logo_img_3 {
+	margin-right: 60px;
+}
+.logo_img_4 {
+	margin-right: 60px;
+}
+.logo_img_5 {
+	margin-right: 60px;
+}*/
+.logo_brend {
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+}
+.test_blog {
+
+	padding-top: 99px;
+	padding-bottom: 73px;
+}
+
+.testimonials,
+.blog {
+	width:50%;
+	float: left;
+}
+.testimonials_main {
+	background-color: #fff;
+	padding-top: 33px;
+	padding-left: 35px;
+	padding-bottom: 41px;
+	padding-right: 41px;
+	margin-bottom: 21px;
+	margin-left: 29px;
+	margin-right: 22px;
+	position: relative;
+
+}
+.testimonials_conteny_text {
+	font-family: 'Open Sans Light';
+}
+.testimonials_main::before {
+    content: '';
+    position: absolute;
+    right: 48px;
+    top: 273px;
+    border-bottom: 18px solid transparent;
+    border-right: 18px solid #fff;
+   }
+.testimonials_img {
+	position: absolute;
+	left:-28px;
+	top:18px;
+}
+.testimonials_header {
+	text-shadow: 0.5px 0.9px 0 white;
+	 font-family: 'League Gothic Regular';
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+	letter-spacing: -0.2px;
+	margin-bottom: 11px;
+}
+
+.testimonials_header_start {
+	color: #454545;
+	display: inline-block;
+}
+
+.testimonials_header_end {
+	color: #edbfff;
+	display: inline-block;
+
+}
+.testimonials_nav {
+	text-align: center;
+}
+.blog {
+	margin-top: 33px;
+	/*padding-right: 15px;*/
+	padding-left: 31px;
+}
+.blogs_header {
+	letter-spacing: -0.2px;
+	margin-bottom: 18px;
+	/*margin-left: 11px;*/
+	 font-family: 'League Gothic Regular';
+}
+.blogs_content_text {
+	padding-left: 11px;
+	letter-spacing: -0.1px;
+		font-family: 'Open Sans Light';
+}
+.blogs_content_header p {
+	display: inline-block;
+	letter-spacing: 0.25px;
+	margin-left: 11px;
+	font-family: 'Open Sans Light';
+}
+.blogs_first {
+	margin-bottom: 18px;
+}
+.blogs_second {
+ margin-bottom: 12px;
+  }
+  .blogs_footer {
+  	margin-top: 20px;
+  	margin-right: 20px;
+  	letter-spacing: -0.1px;
+  	 font-family: 'League Gothic Regular';
+  }
+.row_news {
+
+	padding-top: 95px;
+	padding-bottom: 95px;
+}
+.logo_feedback {
+	/*padding-left: 94px;*/
+	padding-bottom: 30px;
+}
+
+.news_content {
+	width: 29%;
+	float: left;
+}
+.logo_news_hidden {
+	letter-spacing: -0.6px;
+}
+.logo_news_hidden  .logo_star {
+	color: #222;
+}
+.logo_news_hidden .logo_end {
+
+}
+.text_hidden960,
+.news_content_last {
+	display: none;
+}
+.news_content-960 {
+	display: block;
+	width: 283px;
+	margin-right: 55px;
+}
+.logo_news_hidden h1 {
+	letter-spacing: -0.9px;
+	margin-bottom: 9px;
+}
+
+.logo_news_hidden .logo_start {
+	color:#454545;
+}
+.logo_news_hidden .logo_end {
+	color: #bababa;
+}
+.news_content_header-p {
+color: #c5c5c5;
+font-family: Georgia;
+font-size: 16px;
+font-style: italic;
+line-height: 24px;
+letter-spacing: -0.17px;
+margin-bottom: 7px;
+}
+.news_content_header {
+	margin-top: 5px;
+	letter-spacing: -0.3px;
+	margin-bottom: 10px;
+}
+.news_content .news_content-960 {
+	margin-right: 57px;
+	margin-top: -5px;
+}
+.news_content-first {
+	margin-right: 61px;
+}
+.news_content_header {
+
+text-shadow: 0.5px 0.9px 0 white;
+color: #454545;
+ font-family: 'League Gothic Regular';
+ font-size: 30px;
+font-weight: 400;
+line-height: 24px;
+text-transform: uppercase;
+}
+.news_content_text {
+	font-family: 'Open Sans Light';
+}
+
+
+/*FOOTER*/
+footer {
+	padding-top: 42px;
+	padding-bottom: 49px;
+
+}
+footer .nav {
+	float: left;
+	margin-left: -6px;
+	/*margin-bottom: 37px;*/
+}
+.nav li {
+	float: left;
+}
+footer .nav_line a {
+	font-size: 19px;
+	letter-spacing: 0.1px;
+}
+footer .nav_line li {
+	margin-right: 32px;
+	margin-top: 5px;
+}
+.footer_p {
+	float: right;
+	line-height: 18px;
+	font-family: 'Open Sans Light';
+}
